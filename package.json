@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.dev.js --progress --colors",
     "dev-server": "webpack-dev-server --config webpack.config.dev.js --progress --colors --inline --hot",
-    "start": "npm run dev-server"
+    "start": "npm run dev-server",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/AASanch/Practice_React_Flux#readme",
   "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
     "awesome-typescript-loader": "^3.1.2",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
