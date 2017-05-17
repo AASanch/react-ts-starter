@@ -7,6 +7,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', 'jsx', '.css', 'scss'],
     },
     entry: [
+        "babel-polyfill",
         "./src/index"
     ],
     target: "web",
