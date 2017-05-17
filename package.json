@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AASanch/Practice_React_Flux.git"
+    "url": "git+https://github.com/AASanch/react-ts-starter.git"
   },
   "author": "AASanch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AASanch/Practice_React_Flux/issues"
+    "url": "https://github.com/AASanch/react-ts-starter/issues"
   },
-  "homepage": "https://github.com/AASanch/Practice_React_Flux#readme",
+  "homepage": "https://github.com/AASanch/react-ts-starter#readme",
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
     "awesome-typescript-loader": "^3.1.2",
